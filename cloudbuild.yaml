@@ -1,0 +1,5 @@
+steps:
+- name: gcr.io/cloud-builders/curl
+  args: ["https://postman-echo.com/time/now"]
+
+- name: gcr.io/$PROJECT_ID/
